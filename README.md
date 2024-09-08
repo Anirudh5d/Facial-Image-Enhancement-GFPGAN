@@ -64,13 +64,14 @@ The following images illustrate the input and corresponding output results:
 
 ### Inputs
 
-![Original Image 1](static/uploads/"10 per.jpg")
-![Original Image 2](static/uploads/"40 per.jpg")
+![Original Image 1](static/uploads/10_per.jpg)
+![Original Image 2](static/uploads/40_per.jpg)
 
 ### Outputs
 
-![Enhanced Image 1](static/results/10 per.jpg)
-![Enhanced Image 2](static/results/40 per.jpg)
+![Enhanced Image 1](static/results/10_per.jpg)
+![Enhanced Image 2](static/results/40_per.jpg)
+
 
 ## Troubleshooting
 
