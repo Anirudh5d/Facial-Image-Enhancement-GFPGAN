@@ -64,8 +64,8 @@ The following images illustrate the input and corresponding output results:
 
 ### Inputs
 
-![Original Image 1](static/uploads/10 per.jpg)
-![Original Image 2](static/uploads/40 per.jpg)
+![Original Image 1](static/uploads/"10 per.jpg")
+![Original Image 2](static/uploads/"40 per.jpg")
 
 ### Outputs
 
