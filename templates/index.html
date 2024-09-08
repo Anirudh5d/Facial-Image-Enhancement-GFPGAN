@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFPGAN Image Restoration</title>
+</head>
+<body>
+    <h1>Image Restoration with GFPGAN</h1>
+    <form action="/enhance-image/" method="post" enctype="multipart/form-data">
+        <label for="image">Select image:</label>
+        <input type="file" id="image" name="image" required><br><br>
+
+        <label for="version">Model version:</label>
+        <select id="version" name="version">
+            <option value="1.3" selected>1.3</option>
+            <option value="1.2">1.2</option>
+            <option value="1.4">1.4</option>
+            <option value="RestoreFormer">RestoreFormer</option>
+        </select><br><br>
+
+        <label for="upscale">Upscale factor:</label>
+        <input type="number" id="upscale" name="upscale" min="1" value="2"><br><br>
+
+        <label for="bg_upsampler">Background Upsampler:</label>
+        <select id="bg_upsampler" name="bg_upsampler">
+            <option value="realesrgan" selected>Real-ESRGAN</option>
+            <option value="none">None</option>
+        </select><br><br>
+
+        <input type="submit" value="Restore Image">
+    </form>
+</body>
+</html>
