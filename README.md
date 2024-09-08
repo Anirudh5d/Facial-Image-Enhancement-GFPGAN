@@ -69,7 +69,6 @@ The following images illustrate the input and corresponding output results:
 
 ### Outputs
 
-![Enhanced Image 1](static/results/10_per.jpg)
 ![Enhanced Image 2](static/results/40_per.jpg)
 
 
